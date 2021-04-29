@@ -22,7 +22,7 @@ export default function authorize ( { auth, authActions, errActions, configs, au
       break
 
     case "implicit":
-      query.push("response_type=token")
+      query.push("response_type=id_token")
       break
 
     case "clientCredentials":
